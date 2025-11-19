@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This a Simple front-end developer protfolio website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="singlepagewebsite.css">
+    <title>Protfolio Website</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="headclass">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Protfolio">Protfolio</a></li>
+                    <li><a href="#Content">Content Me</a></li>
+                    <li><button id="Thememode" aria-label="Toggle theme">
+                        <span class="lightmode">☀</span>
+                        <span class="darkmode">🌙</span>
+                    </button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="Home">
+                <h2>I AM A FRONT-END DEVELOPER</h2>
+                 <div class="about-container">
+                    <img class="profileimage" src="https://avatars.githubusercontent.com/u/194191656?v=4" alt="Profile image">
+                    <p>I am a front-End Developer with react.js skill and other most wanted UX/UI Designing skills</p>
+                 </div>
+                 <div class="social-media">
+                        <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                 <hr>
+                </section>
+                <section id="About">
+                    <div class="protfolio-container">
+                    </div>
+                    <hr>
+                </section>
+                <section id="Content">
+                    <div class="content-container">
+                        <form class="infoform" method="get">
+                            <label for="">First</label>
+                            <input type="text" placeholder="First">
+                            <label for="">Last</label>
+                            <input type="text" placeholder="Last">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="Email">
+                            <fieldset>
+                            <legend>Message Here!</legend>
+                            <textarea rows="20" cols="50" placeholder="Message:"></textarea>
+                        </fieldset>
+                            <button class="submitbtn">Submit</button> 
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <script>document.write(new Date().getFullYear())</script>
+        </div>
+    <script type="module" src="singlepagewebsite.js"></script>
+</body>
+</html>
